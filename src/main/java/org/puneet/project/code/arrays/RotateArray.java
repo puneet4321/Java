@@ -8,9 +8,36 @@ public class RotateArray {
         // rotating by one
 //        rotateArrayByOne(arr);
         // This code works fine for one element. what if we need to rotate k elements. But this is not optimal solution.
-        rotateArrayByk(arr, 2);
+//        rotateArrayByk(arr, 2);
+        rotateArrayBykOptimalCode(arr, 2);
 
+    }
 
+    private static void rotateArrayBykOptimalCode(int[] arr, int k) {
+        int low = 0;
+        int high = k - 1;
+        //Rotate till O to k-1 partition
+        reverseArray(arr, low, high);
+        System.out.println(Arrays.toString(arr));
+        high = k;
+        //Rotate till k to last partition
+        reverseArray(arr, high, arr.length - 1);
+        System.out.println(Arrays.toString(arr));
+
+        //Rotate whole array
+        reverseArray(arr, 0, arr.length - 1);
+        System.out.println("Final rotated array " + Arrays.toString(arr));
+
+    }
+
+    private static void reverseArray(int[] arr, int low, int high) {
+        while (low < high) {
+            int temp = arr[low];
+            arr[low] = arr[high];
+            arr[high] = temp;
+            low++;
+            high--;
+        }
     }
 
     private static void rotateArrayByOne(int[] arr) {
