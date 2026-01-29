@@ -2,7 +2,7 @@ package org.puneet.project.code.arrays;
 
 import java.util.Arrays;
 
-public class SecondLargest {
+public class SecondLargest_1 {
     public static void main(String[] args) {
         int[] arr = {1, 2, 3, 4, 7, 7, 5};
 //        secondLargestBruteForce(arr);

@@ -2,7 +2,7 @@ package org.puneet.project.code.arrays;
 
 import java.util.Arrays;
 
-public class RotateArray {
+public class RotateArray_3 {
     public static void main(String[] args) {
         int[] arr = {1, 2, 3, 4, 5};
         // rotating by one
