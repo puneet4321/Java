@@ -21,15 +21,19 @@ public class RemoveAllZeros_4 {
         }
         for (int i = j + 1; i < arr.length; i++) {
             if (arr[i] != 0) {
-                int temp = arr[i];
-                arr[i] = arr[j];
-                arr[j] = temp;
+                swap(arr, i, j);
                 j++;
             }
         }
 
         System.out.println(j);
         System.out.println(Arrays.toString(arr));
+    }
+
+    private static void swap(int[] arr, int i, int j) {
+        int temp = arr[i];
+        arr[i] = arr[j];
+        arr[j] = temp;
     }
 
     private static void removeZeroBruteForce(int[] arr) {
