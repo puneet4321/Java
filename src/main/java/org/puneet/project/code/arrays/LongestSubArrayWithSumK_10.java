@@ -2,7 +2,7 @@ package org.puneet.project.code.arrays;
 
 import java.util.*;
 
-public class LongestSubArrayWithSumK {
+public class LongestSubArrayWithSumK_10 {
     public static void main(String[] args) {
         int[] arr = {1, 2, 3, 1, 1, 1, 1, 4, 2, 3};
 //        int[] arr = {2, 0, 0, 3}; // for array containing zeros edge case.
