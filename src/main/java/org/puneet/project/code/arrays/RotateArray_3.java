@@ -30,7 +30,7 @@ public class RotateArray_3 {
 
     }
 
-    private static void reverseArray(int[] arr, int low, int high) {
+    public static void reverseArray(int[] arr, int low, int high) {
         while (low < high) {
             int temp = arr[low];
             arr[low] = arr[high];
