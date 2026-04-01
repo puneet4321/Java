@@ -1,10 +1,9 @@
 package org.puneet.project.code.patternlearning.hashmap;
 
 import java.util.HashMap;
-import java.util.LinkedHashMap;
 import java.util.Objects;
 
-public class FirstUniqueChar {
+public class FirstUniqueChar_1 {
     public static void main(String[] args) {
         String s = "loveleetcode";
         int idxOfFirstUniqueChar = firstUniqCharOptimal(s);
