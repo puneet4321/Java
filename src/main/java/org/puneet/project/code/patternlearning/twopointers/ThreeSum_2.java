@@ -2,15 +2,14 @@ package org.puneet.project.code.patternlearning.twopointers;
 
 import java.util.*;
 
-public class ThreeSum {
+public class ThreeSum_2 {
     public static void main(String[] args) {
         int[] nums = {-1, 0, 1, 2, -1, -4};
-        ThreeSum threeSum = new ThreeSum();
-        List<List<Integer>> result = threeSum.threeSum(nums);
+        List<List<Integer>> result = threeSum(nums);
         System.out.println(result);
     }
 
-    public List<List<Integer>> threeSum(int[] nums) {
+    public static List<List<Integer>> threeSum(int[] nums) {
         Set<List<Integer>> zerosList = new HashSet<>();
         Arrays.sort(nums);
 
