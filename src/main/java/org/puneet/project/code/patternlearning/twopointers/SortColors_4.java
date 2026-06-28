@@ -13,7 +13,7 @@ public class SortColors_4 {
     //Dutch National Flag Algo
     // 0 to low -1 ==> 0's
     // low to mid -1 ==> 1's
-    // high + 1 to arr.length - 1 ==> 0's
+    // high + 1 to arr.length - 1 ==> 2's
 
     // So, the unsorted part od array is mid to high
     private static void sortColors(int[] zerosOnesTows) {
