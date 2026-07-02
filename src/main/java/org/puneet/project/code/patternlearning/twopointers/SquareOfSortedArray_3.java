@@ -2,7 +2,7 @@ package org.puneet.project.code.patternlearning.twopointers;
 
 import java.util.Arrays;
 
-public class SquareOfSortedArray {
+public class SquareOfSortedArray_3 {
     public static void main(String[] args) {
         int[] sortedSquares = sortedSquaresBruteForce(new int[]{-4, -1, 0, 3, 10});
         System.out.println(" sortedSquares " + Arrays.toString(sortedSquares));
