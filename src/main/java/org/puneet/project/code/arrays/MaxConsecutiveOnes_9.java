@@ -17,6 +17,7 @@ public class MaxConsecutiveOnes_9 {
                 maxOneCount = 0;
             }
         }
+        finalMaxOneCount = Math.max(maxOneCount, finalMaxOneCount);
         System.out.println("maxOneCount : " + finalMaxOneCount);
     }
 }

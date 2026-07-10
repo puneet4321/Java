@@ -1,6 +1,6 @@
 package org.puneet.project.code.patternlearning.slidingwindow;
 
-public class MaxSumWIthSizeK {
+public class MaxSumWIthSizeK_1 {
     public static void main(String[] args) {
         int[] arr = {2, 4, 5, 7, 6};
         int k = 3;
